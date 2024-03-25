@@ -41,14 +41,13 @@ import { GiArchiveResearch, GiArtificialIntelligence } from "react-icons/gi";
 import { FcElectronics } from "react-icons/fc";
 
 export const links = [
-  { text: "Home", path: "/" },
-  { text: "About", path: "/about" },
-  { text: "Skills", path: "/skills" },
-  { text: "Projects", path: "/projects" },
-  { text: "Experience", path: "/experience" },
-  { text: "Blogs", path: "/blogs" },
+  { text: "Accueil", path: "/" },
+  { text: "À propos", path: "/about" },
+  { text: "Compétences", path: "/skills" },
+  { text: "Projets", path: "/projects" },
+  { text: "Expérience", path: "/experience" },
   { text: "Contact", path: "/contact" },
-  { text: "Resume", path: "/resume" },
+  { text: "CV", path: "/resume" },
 ];
 
 export const interestsData = [
@@ -305,34 +304,16 @@ export const projectsData = [
 
 export const socialMediaLinks = [
   {
-    href: "https://github.com/vaheedsk36",
+    href: "https://github.com/BetaProg01",
     icon: FaGithub,
     backgroundColor: "gray.700",
     hoverColor: "gray.600",
   },
   {
-    href: "https://www.instagram.com/codersk36/",
-    icon: FaInstagram,
-    backgroundColor: "social.instagram",
-    hoverColor: "social.instagramHover",
-  },
-  {
-    href: "https://www.linkedin.com/in/sk36/",
+    href: "https://www.linkedin.com/in/benoit-verdot/",
     icon: FaLinkedin,
     backgroundColor: "social.linkedin",
     hoverColor: "social.linkedinHover",
-  },
-  {
-    href: "https://twitter.com/codersk36",
-    icon: FaTwitter,
-    backgroundColor: "social.twitter",
-    hoverColor: "social.twitterHover",
-  },
-  {
-    href: "https://codersk36.hashnode.dev/",
-    icon: FaHashnode,
-    backgroundColor: "social.hashnode",
-    hoverColor: "social.hashnodeHover",
   },
 ];
 

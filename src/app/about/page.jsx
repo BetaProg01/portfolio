@@ -19,7 +19,7 @@ const Page = () => {
         <Box width="80vw" height="100%">
           <RevealWrapper className="load-hidden" id="about" delay={300}>
             <Heading className="sub-heading" size="md" my={3}>
-              ABOUT
+              A PROPOS
             </Heading>
             <SimpleGrid
               columns={[1, null, 2]}

@@ -16,8 +16,8 @@ export default function Home() {
 
   useEffect(() => {
     const options = {
-      strings: ["Developer", "Coder", "Tech Blogger", "Tech Enthusiast"],
-      typeSpeed: 50,
+      strings: ["Développeur", "Ingénieur Cloud", "Ingénieur DevOps", "Passionné de technologie"],
+      typeSpeed: 40,
       backSpeed: 35,
       loop: true,
     };
@@ -67,7 +67,7 @@ export default function Home() {
               color="blueTheme.navLinkActive"
               fontFamily="Righteous"
             >
-              Hi, my name is
+              Bonjour, je suis
             </Heading>
           </RevealWrapper>
           <RevealWrapper className="load-hidden" delay={500}>
@@ -80,7 +80,7 @@ export default function Home() {
                 fontFamily="Black Ops One"
                 fontSize={["2.5rem", "3.7rem"]}
               >
-                Masood Akhtar
+                Benoit
               </Heading>
 
               <Heading
@@ -88,13 +88,13 @@ export default function Home() {
                 fontSize={["2.5rem", "3.7rem"]}
                 ml={[null, "1rem"]}
               >
-                Vaheed
+                Verdot
               </Heading>
             </Flex>
           </RevealWrapper>
           <RevealWrapper className="load-hidden" delay={600}>
             <Heading my={3} size="lg" fontFamily="Righteous">
-              I &apos;m <span className="typed-text" ref={typedTextRef}></span>
+              je suis <span className="typed-text" ref={typedTextRef}></span>
             </Heading>
           </RevealWrapper>
           <RevealWrapper className="load-hidden" delay={700}>

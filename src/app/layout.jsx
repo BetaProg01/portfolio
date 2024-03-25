@@ -2,9 +2,9 @@ import Favicon from "/public/images/favicon.png";
 import ClientRootLayout from "../components/ClientRootLayout";
 
 export const metadata = {
-  title: "Vaheed Shaik | Software Engineer",
+  title: "Benoit Verdot | Ingénieur Cloud & DevOps",
   description:
-  "Welcome to Vaheed's Software Engineering Portfolio. Explore a diverse range of projects and see how I can bring your ideas to life. Let's connect and discuss your next venture!",
+  "Bienvenue sur mon portfolio d'Ingénieur Cloud & DevOps. Découvrez mes compétences et projets, et voyez comment je peux contribuer à votre entreprise. N'hésitez pas à me contacter !",
   keywords: [
     "portfolio",
     "app",
@@ -12,10 +12,6 @@ export const metadata = {
     "sass",
     "scss",
     "react",
-    "chakra",
-    "hashnode",
-    "best portfolio",
-    "best portfolio website"
   ],
     icons: [{
     rel: 'icon',
