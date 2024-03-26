@@ -18,31 +18,27 @@ const Contact = () => {
       <SimpleGrid my={["5rem","4rem"]} width={["90vw","95vw","85vw"]} templateColumns={[null,null,"40% 55%"]}>
         <RevealWrapper className="load-hidden" delay={300}>
             <Heading fontSize="2.8rem">
-              Let&apos;s discuss on something{" "}
-              <Text color="social.instagram" display="inline">
-                cool
-              </Text>{" "}
-              together
+              Contactez-moi !
             </Heading>
 
             <Stack marginTop="4rem">
               <Tooltip label="Send Mail">
                 <Link
-                  href="mailto:vaheedsk36@gmail.com"
+                  href="mailto:benoitverdot@gmail.com"
                   target="_blank"
                   className="contact-text-span"
                   my={3}
                   _hover={{ textDecoration: "none" }}
                 >
                   <Icon as={IoIosMail} mx={2} />
-                  <Text>vaheedsk36@gmail.com</Text>
+                  <Text>benoitverdot@gmail.com</Text>
                 </Link>
               </Tooltip>
 
               <Tooltip label="Open Map">
                   <Text className="contact-text-span" my={3} onClick={onOpen} cursor="pointer">
                     <Icon as={ImLocation} mx={2} />
-                    <span>Hyderabad, India</span>
+                    <span>Nancy, France</span>
                   </Text>
               </Tooltip>
             </Stack>

@@ -12,12 +12,26 @@ import {
   FaTwitter,
 } from "react-icons/fa";
 
+import { 
+  GiMaterialsScience,
+  GiGreekTemple,
+  GiArtificialIntelligence,
+} from "react-icons/gi";
+
+import { LuBrainCircuit, 
+} from "react-icons/lu";
+
+import { 
+  IoLogoGameControllerB, 
+} from "react-icons/io";
+
 import {
   TbBrandTypescript,
   TbBrandJavascript,
   TbBrandCpp,
   TbBrandRedux,
   TbBrandBootstrap,
+  TbZoomMoney,
 } from "react-icons/tb";
 import { BiLogoJquery, BiLogoPostgresql } from "react-icons/bi";
 import {
@@ -37,8 +51,6 @@ import {
   BsGit,
   BsMarkdown,
 } from "react-icons/bs";
-import { GiArchiveResearch, GiArtificialIntelligence } from "react-icons/gi";
-import { FcElectronics } from "react-icons/fc";
 
 export const links = [
   { text: "Accueil", path: "/" },
@@ -52,37 +64,38 @@ export const links = [
 
 export const interestsData = [
   {
-    interest: "Software Engineering",
+    interest: "Ingénierie Logicielle",
     icon: BsCodeSlash,
   },
   {
-    interest: "Tech Blog",
-    icon: FaHashnode,
-  },
-  {
-    interest: "Internet of Things",
-    icon: FcElectronics,
-  },
-  {
-    interest: "Market Research",
-    icon: GiArchiveResearch,
-  },
-  {
-    interest: "Visualization",
-    icon: BsFileBarGraph,
-  },
-  {
-    interest: "Software Development",
-    icon: AiFillCode,
-  },
-  {
-    interest: "Robotics",
-    icon: BsRobot,
+    interest: "Sciences Fondamentales",
+    icon: GiMaterialsScience,
   },
   {
     interest: "Web Scraping",
     icon: BsGlobe,
   },
+  {
+    interest: "Intelligence Artificielle",
+    icon: LuBrainCircuit,
+  },
+  {
+    interest: "Enconomie et Finance",
+    icon: TbZoomMoney,
+  },
+  {
+    interest: "Développement Logiciel",
+    icon: AiFillCode,
+  },
+  {
+    interest: "Développement de Jeux",
+    icon: IoLogoGameControllerB,
+  },
+  {
+    interest: "Histoire",
+    icon: GiGreekTemple,
+  }   
+
 ];
 
 export const skillsData = [

@@ -24,7 +24,7 @@ import { RevealWrapper } from 'next-reveal'
 
 const ContactForm = () => {
   const toast = useToast();
-  const options = ["Web Development", "Hiring", "Freelance", "Other"];
+  const options = ["Recrutement", "Demande d'information", "Autre"];
   const [interestedIn, setInterestedIn] = useState("Web Development");
   const { getRootProps, getRadioProps } = useRadioGroup({
     name: "interested",
@@ -54,7 +54,7 @@ const ContactForm = () => {
       });
 
       if (!response.ok) {
-        throw new Error("Unable to send message ");
+        throw new Error("Impossible d'envoyer le message.");
       }
 
       reset({
@@ -67,14 +67,14 @@ const ContactForm = () => {
       setIsLoading(false);
 
       toast({
-        title: "Message sent successfully",
+        title: "Message envoyé avec succès!",
         status: "success",
         position: "top",
         duration: 9000,
         isClosable: true,
       });
     } catch (error) {
-      console.error("Error sending message:", error);
+      console.error("Erreur à l'envoi du message:", error);
       toast({
         title: error.message,
         status: "error",
@@ -91,7 +91,7 @@ const ContactForm = () => {
       <Card className="contact-form-card" borderRadius="2rem" backgroundColor="white" padding="10px 15px">
         <CardBody>
           <Heading size="md" color="black" my={3}>
-            I&apos;m interested in...
+            Je suis interessé par...
           </Heading>
           <Flex {...group} wrap="wrap" px={1}>
             {options.map((value) => {
@@ -105,7 +105,7 @@ const ContactForm = () => {
           </Flex>
           <Stack as="form" onSubmit={handleSubmit(onSubmit)}>
             <FormControl isRequired isInvalid={errors.name} my={4}>
-              <FormLabel htmlFor="name">Enter Name</FormLabel>
+              <FormLabel htmlFor="name">Votre nom</FormLabel>
               <Input
                 id="name"
                 className="contact-input"
@@ -114,11 +114,11 @@ const ContactForm = () => {
                 {...register("name", { required: true })}
               />
               {errors.name && (
-                <FormErrorMessage>Enter your name</FormErrorMessage>
+                <FormErrorMessage>Entrez votre nom</FormErrorMessage>
               )}
             </FormControl>
             <FormControl isRequired isInvalid={errors.email}>
-              <FormLabel htmlFor="email">Enter Email</FormLabel>
+              <FormLabel htmlFor="email">Votre adresse Email</FormLabel>
               <Input
                 id="email"
                 className="contact-input"
@@ -127,11 +127,11 @@ const ContactForm = () => {
                 {...register("email", { required: true })}
               />
               {errors.email && (
-                <FormErrorMessage>Enter your email</FormErrorMessage>
+                <FormErrorMessage>Entrez votre email</FormErrorMessage>
               )}
             </FormControl>
             <FormControl my={4}>
-              <FormLabel htmlFor="number">Enter Phone No.</FormLabel>
+              <FormLabel htmlFor="number">Votre n° de tél.</FormLabel>
               <NumberInput id="number" {...register("number")}>
                 <NumberInputField
                   className="contact-input"
@@ -140,7 +140,7 @@ const ContactForm = () => {
               </NumberInput>
             </FormControl>
             <FormControl isRequired isInvalid={errors.message}>
-              <FormLabel htmlFor="message">Enter Message</FormLabel>
+              <FormLabel htmlFor="message">Votre message</FormLabel>
               <Textarea
                 id="message"
                 className="contact-input"
@@ -148,7 +148,7 @@ const ContactForm = () => {
                 {...register("message", { required: true })}
               />
               {errors.message && (
-                <FormErrorMessage>Enter your message</FormErrorMessage>
+                <FormErrorMessage>Entrez votre message</FormErrorMessage>
               )}
             </FormControl>
             <FormControl>
@@ -161,7 +161,7 @@ const ContactForm = () => {
                 type="submit"
               >
                 <Icon mr={1} as={BsFillSendFill} />
-                Send Message
+                Envoyer
               </Button>
             </FormControl>
           </Stack>

@@ -37,10 +37,6 @@ export function Providers({
           instagramHover:"#FF63B4",
           linkedin:"#0072b1",
           linkedinHover:"#1282B1",
-          twitter:"#00acee",
-          twitterHover:"#63C5F4",
-          hashnode:"#265FF7",
-          hashnodeHover:"#7A84E6"
         }
       },
     });

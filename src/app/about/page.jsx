@@ -19,7 +19,7 @@ const Page = () => {
         <Box width="80vw" height="100%">
           <RevealWrapper className="load-hidden" id="about" delay={300}>
             <Heading className="sub-heading" size="md" my={3}>
-              A PROPOS
+              À PROPOS DE MOI
             </Heading>
             <SimpleGrid
               columns={[1, null, 2]}
@@ -39,27 +39,23 @@ const Page = () => {
 
               <Box textAlign="justify">
                 <Heading size="xl" mb={3}>
-                  👋 Hey there
+                  Bonjour !
                 </Heading>
                 <br />
                 <Text>
-                  I&apos;m <span className="name">Vaheed</span>, a passionate
-                  software developer. I specialize in{" "}
-                  <span className="tech">Web Development</span>, crafting
-                  seamless user experiences and robust backend solutions. With a
-                  knack for problem-solving, I thrive on creating elegant code
-                  that makes an impact. I&apos;m always exploring new tools and
-                  techniques to stay at the forefront of the ever-evolving tech
-                  landscape.
+                  Je suis un futur Ingénieur spécialisé en Cloud Computing et DevOps, passionné par la mise en place d'infrastructures Cloud et l'automatisation.
+                  Je cherche constamment à acquérir de nouvelles compétences et à relever des défis techniques pour compléter mes connaissances.
                 </Text>
                 <br />
                 <Text>
-                  📫 Open to collaborations and exciting projects, I&apos;m
-                  eager to connect with fellow developers and tech enthusiasts.
-                  Let&apos;s build something amazing together!
+                  Ma curiosité m'a poussé à explorer divers domaines comme le développement backend, le réseau ou l'IA, puis le Cloud qui m'a particulièrement intéressé. J'ai ainsi développé des compétences en architecture microservices, en déploiement d'infrastructures avec Terraform et Ansible, utilisé Docker pour la conteneurisation ou encore développé des chaînes CI/CD avec Github Actions et GitLab CI.
+                </Text>
+                <br />
+                <Text>
+                  Après ma diplomation en Septembre 2024, j'aimerais m'investir dans une entreprise innovante où je pourrais mettre en pratique mes compétences et contribuer à des projets de long terme.
                 </Text>
                 <Text>
-                  Happy coding! 🖥️
+                  Je serais heureux de discuter de vos projets et de comment je pourrais vous aider à les réaliser.
                   <br />
                 </Text>
               </Box>
@@ -67,7 +63,7 @@ const Page = () => {
           </RevealWrapper>
           <RevealWrapper className="load-hidden" id="interests" delay={600}>
             <Heading className="sub-heading" size="md" my={3}>
-              INTERESTS
+              INTERÊTS
             </Heading>
             <SimpleGrid
               spacing={4}
