@@ -2,20 +2,21 @@ import {
   FaHtml5,
   FaCss3,
   FaReact,
-  FaSass,
   FaPython,
-  FaNodeJs,
   FaDocker,
   FaGithub,
   FaInstagram,
   FaLinkedin,
   FaTwitter,
+  FaJava,
+  FaAngular,
+  FaPhp,
+  FaGitlab,
 } from "react-icons/fa";
 
 import { 
   GiMaterialsScience,
   GiGreekTemple,
-  GiArtificialIntelligence,
 } from "react-icons/gi";
 
 import { LuBrainCircuit, 
@@ -26,38 +27,41 @@ import {
 } from "react-icons/io";
 
 import {
-  TbBrandTypescript,
   TbBrandJavascript,
   TbBrandCpp,
-  TbBrandRedux,
-  TbBrandBootstrap,
+  TbBrandCSharp,
   TbZoomMoney,
 } from "react-icons/tb";
-import { BiLogoJquery, BiLogoPostgresql } from "react-icons/bi";
+import { 
+  BiLogoPostgresql, 
+  BiLogoSpringBoot, 
+} from "react-icons/bi";
 import {
-  SiPug,
-  SiExpress,
   SiPostman,
   SiGnubash,
-  SiNextdotjs,
+  SiTerraform,
+  SiAnsible,
+  SiGithubactions,
+  SiApachekafka,
+  SiNeo4J,
+  SiOcaml,
+  SiFastapi,
 } from "react-icons/si";
 import { AiFillCode } from "react-icons/ai";
 import { FaHashnode } from "react-icons/fa6";
 import {
   BsGlobe,
   BsCodeSlash,
-  BsRobot,
-  BsFileBarGraph,
   BsGit,
-  BsMarkdown,
 } from "react-icons/bs";
 
 export const links = [
   { text: "Accueil", path: "/" },
   { text: "À propos", path: "/about" },
   { text: "Compétences", path: "/skills" },
-  { text: "Projets", path: "/projects" },
   { text: "Expérience", path: "/experience" },
+  { text: "Education", path: "/education" },
+  { text: "Projets", path: "/projects" },
   { text: "Contact", path: "/contact" },
   { text: "CV", path: "/resume" },
 ];
@@ -72,12 +76,12 @@ export const interestsData = [
     icon: GiMaterialsScience,
   },
   {
-    interest: "Web Scraping",
-    icon: BsGlobe,
-  },
-  {
     interest: "Intelligence Artificielle",
     icon: LuBrainCircuit,
+  },
+  {
+    interest: "Web Scraping",
+    icon: BsGlobe,
   },
   {
     interest: "Enconomie et Finance",
@@ -100,140 +104,166 @@ export const interestsData = [
 
 export const skillsData = [
   {
-    name: "HTML5",
-    icon: FaHtml5,
+    name: "Java",
+    icon: FaJava,
   },
   {
-    name: "CSS3",
-    icon: FaCss3,
-  },
-  {
-    name: "Javascript",
-    icon: TbBrandJavascript,
-  },
-  {
-    name: "Jquery",
-    icon: BiLogoJquery,
-  },
-  {
-    name: "Typescript",
-    icon: TbBrandTypescript,
-  },
-  {
-    name: "SASS",
-    icon: FaSass,
-  },
-  {
-    name: "Bootstrap",
-    icon: TbBrandBootstrap,
+    name: "Spring Boot",
+    icon: BiLogoSpringBoot,
   },
   {
     name: "C/C++",
     icon: TbBrandCpp,
   },
   {
+    name: "C#",
+    icon: TbBrandCSharp,
+  },
+  {
     name: "Python",
     icon: FaPython,
-  },
-  {
-    name: "ReactJS",
-    icon: FaReact,
-  },
-  {
-    name: "NextJS",
-    icon: SiNextdotjs,
-  },
-  {
-    name: "Redux",
-    icon: TbBrandRedux,
-  },
-  {
-    name: "NodeJs",
-    icon: FaNodeJs,
-  },
-  {
-    name: "PugJs",
-    icon: SiPug,
-  },
-  {
-    name: "Express",
-    icon: SiExpress,
   },
   {
     name: "Docker",
     icon: FaDocker,
   },
   {
+    name: "Terrafom",
+    icon: SiTerraform,
+  },
+  {
+    name: "Ansible",
+    icon: SiAnsible,
+  },
+  {
+    name: "CI/CD",
+    icon: SiGithubactions,
+  },
+  {
+    name: "Kafka",
+    icon: SiApachekafka,
+  },
+  {
+    name: "IA",
+    icon: LuBrainCircuit,
+  },
+  {
+    name: "FastAPI",
+    icon: SiFastapi,
+  },
+  {
+    name: "Javascript",
+    icon: TbBrandJavascript,
+  },
+  {
+    name: "PHP",
+    icon: FaPhp,
+  },
+  {
+    name: "Angular",
+    icon: FaAngular,
+  },
+  {
+    name: "ReactJS",
+    icon: FaReact,
+  },
+  {
     name: "Postgres",
     icon: BiLogoPostgresql,
   },
   {
-    name: "Postman",
-    icon: SiPostman,
+    name: "NoSQL",
+    icon: SiNeo4J,
+  },
+  {
+    name: "Prog. Fonction-nelle",
+    icon: SiOcaml,
   },
   {
     name: "Git",
     icon: BsGit,
   },
-  {
-    name: "Github",
-    icon: FaGithub,
-  },
-  {
-    name: "ChatGPT",
-    icon: GiArtificialIntelligence,
-  },
-  {
-    name: "Bash",
-    icon: SiGnubash,
-  },
-  {
-    name: "Markdown",
-    icon: BsMarkdown,
-  },
 ];
 
 export const workData = [
   {
-    company: "1Digitalstack.ai",
-    designation: "Software Engineer 1",
-    duration: "March 2022 - Present",
-    companyImg: "1ds.jpg",
+    company: "Equasens",
+    designation: "Stagiaire Analyste Data",
+    duration: "Mai 2023 - Août 2023",
+    companyImg: "equasens.jpeg",
     description: (
       <>
         <ul>
           <li>
-            I work on Reviniti, an analytics product designed for e-commerce
-            players in the bid management domain. Solely migrated the old
-            codebase from a templating engine (PugJS) to React with TypeScript.
+            Réalisation d’une étude de besoins DATA sur 10 applications développées par Equasens afin de déterminer les données et les outils à fort potentiel dans le pôle R&D.
           </li>
           <li>
-            Engaged in developing new features, refactoring code, enhancing
-            product performance, bug fixes and contributing towards achieving
-            high scalability for the product.
+            Compétences développées : analyse fonctionnelle et technique, autonomie, rédaction de rapports, apprentissage rapide de technologies, présentation de son travail, documentation.
+          </li>
+          <li>
+            Technologies rencontrées : Java/Spring, SQL, JavaScript, Cloud, environnement micro-services, JIRA, Confluence, concentrateurs de données (Snowflake, Elastic, ...), data pipelines.
           </li>
         </ul>
       </>
     ),
   },
   {
-    company: "Fact.MR",
-    designation: "Associate Consultant Level 01",
-    duration: "Dec 2020 - July 2021",
-    companyImg: "fmr.svg",
+    company: "Med&Nov",
+    designation: "Stagiaire Développeur en WinDev",
+    duration: "Mai 2022 - Août 2022",
+    companyImg: "med&nov.png",
     description: (
       <>
         <ul>
           <li>
-            Engaged in creating comprehensive client-specific and syndicated
-            research reports, along with SEO-focused articles and collateral
-            materials within the domains of chemicals, materials, consumer
-            goods, and industrial goods.
+            Développement et personnalisation d’une application interne d’annuaire clients, puis développement d’une application à destination de clients d’une pharmacie.
           </li>
           <li>
-            Expertly estimated market valuations and conducted primary research
-            in collaboration with industry experts to validate data, extract
-            valuable market insights.
+            Compétences développées : apprentissage en autonomie, développement objet, analyse des besoins, ergonomie des interfaces, travail à distance.
+            Technologies rencontrées : WinDev, base de données HFSQL, Java, JDBC.
+          </li>
+        </ul>
+      </>
+    ),
+  },
+];
+
+export const educationData = [
+  {
+    company: "CY Tech Pau",
+    designation: "Diplôme d'Ingénieur en Cloud Computing",
+    duration: "Septembre 2021 - Septembre 2024",
+    companyImg: "logoCY.png",
+    description: (
+      <>
+        <ul>
+          <li>
+            J'ai rejoint CY Tech à la suite de ma prépa Physique-Chimie afin de me spécialiser en informatique après 2 ans de cours de Python.
+            J'y ai découvert de nombreux langages et outils, ainsi que des concepts importants dans mes projets aujourdhui.
+            Avec des cours de Java, C/C++, Python, IA, Réseau, Cyber, Cloud, etc. Appliqués dans des projets de groupe et des stages.
+          </li>
+          <li>
+            Je me suis ensuite spécialisé en Cloud Computing pendant ma dernière année afin de découvrir l'infrastructure et les outils qui permettent de développer des applications et services modernes.
+            J'effectue actuellement mon dernier stage jusqu'en Septembre 2024.
+          </li>
+        </ul>
+      </>
+    ),
+  },
+  {
+    company: "Lycée Victor Hugo",
+    designation: "Prépa Physique-Chimie-Sciences de l'Ingénieur (PCSI) puis Physique-Chimie (PC)",
+    duration: "Septembre 2019 - Juin 2021",
+    companyImg: "logoLVH.png",
+    description: (
+      <>
+        <ul>
+          <li>
+            Après mon lycée, j'ai intégré une prépa généraliste pour approfondir les matières scientifiques telles que les Mathématiques et la Physique.
+            Ce cursus comprennait également des cours de Chimie, Sciences de l'Ingénieur, Informatique, Philosophie et Anglais.
+          </li>
+          <li>
+            Ainsi, tout en me préparant aux concours des écoles d'ingénieurs, j'ai pu apprendre une nouvelle méthode de travail, renforcer mes compétences en mathématiques et en physique, et découvrir de nouvelles matières comme l'informatique.
           </li>
         </ul>
       </>
@@ -244,73 +274,38 @@ export const workData = [
 export const projectsData = [
   {
     type: "WEB-APP",
-    title: "Movie Magnet",
-    image: "movie-magnet",
-    link: "https://movie-magnet-smoky.vercel.app/",
-    source: "https://github.com/vaheedsk36/movie-magnet",
-  },
-  {
-    type: "WEB-APP",
-    title: "Portfolio Website",
-    image: "portfolio-website",
-    link: null,
-    source: "https://github.com/vaheedsk36/portfolio-website-nextjs",
-  },
-  {
-    type: "WEB-APP",
-    title: "Weather App",
-    image: "weather-app",
-    link: "https://vaheedsk36.github.io/weather-app/",
-    source: "https://github.com/vaheedsk36/weather-app",
-  },
-  {
-    type: "WEB-APP",
-    title: "Landing Page",
-    image: "landing-page",
-    link: "https://vaheedsk36.github.io/demo-frontend-bootcamp",
-    source: "https://github.com/vaheedsk36/demo-frontend-bootcamp",
-  },
-  {
-    type: "WEB-APP",
-    title: "Guess Game",
-    image: "guess-game",
-    link: "https://vaheedsk36.github.io/guess-my-number",
-    source: "https://github.com/vaheedsk36/guess-my-number",
-  },
-  {
-    type: "WEB-APP",
-    title: "Notes App",
-    image: "react-notes-app",
-    link: "https://vaheedsk36.github.io/react-notes-app/",
-    source: "https://github.com/vaheedsk36/react-notes-app",
-  },
-  {
-    type: "WEB-APP",
-    title: "Dice Multiplayer",
-    image: "dice-multiplayer",
-    link: "https://vaheedsk36.github.io/dice-multiplayer",
-    source: "https://github.com/vaheedsk36/dice-multiplayer",
+    title: "Portfolio",
+    image: null,
+    link: "https://benoit-verdot-portfolio.netlify.app",
+    source: "https://github.com/BetaProg01/portfolio",
   },
   {
     type: "PROJECT",
-    title: "Snake Game",
-    image: "snake-game",
-    link: "https://vaheedsk36.github.io/Snake-game",
-    source: "",
-  },
-  {
-    type: "PROJECT",
-    title: "Delta Assistant",
-    image: "delta-assistant",
+    title: "Reproduction du Reddit rPlace",
+    image: null,
     link: "",
-    source: "https://github.com/vaheedsk36/Delta-Desktop-Virtual-Assistant",
+    source: "https://github.com/NathanLenas/place_pfe",
+  },
+  {
+    type: "PROJECT",
+    title: "Adaptation du jeu Catan",
+    image: null,
+    link: "",
+    source: "https://github.com/Julie-Galopeau/catan-wish/",
+  },
+  {
+    type: "PROJECT",
+    title: "CartonTracking : faux suivi GPS",
+    image: null,
+    link: "",
+    source: "https://github.com/BetaProg01/CartonTracking",
   },
   {
     type: "WEB-APP",
-    title: "Text Utility App",
-    image: "text-utility-app",
-    link: "https://vaheedsk36.github.io/text-utility-app/",
-    source: "https://github.com/vaheedsk36/text-utility-app",
+    title: "Quiz Paulitique",
+    image: null,
+    link: "",
+    source: "https://github.com/Paulitique/quiz",
   },
 ];
 

@@ -18,7 +18,7 @@ const Skills = () => {
     <Center height="70vh" width="100vw">
       <Box width="80vw" height="100%">
         <Heading className="sub-heading" size="md" my={3}>
-          SKILLS
+          COMPETENCES
         </Heading>
         <RevealWrapper className="load-hidden" delay={300}>
         <SimpleGrid
