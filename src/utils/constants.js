@@ -231,14 +231,14 @@ export const workData = [
 export const educationData = [
   {
     company: "CY Tech Pau",
-    designation: "Diplôme d&aposIngénieur en Cloud Computing",
+    designation: "Diplôme d&apos Ingénieur en Cloud Computing",
     duration: "Septembre 2021 - Septembre 2024",
     companyImg: "logoCY.png",
     description: (
       <>
         <ul>
           <li>
-            J&aposai rejoint CY Tech à la suite de ma prépa Physique-Chimie afin de me spécialiser en informatique après 2 ans de cours de Python.
+            J&aposairejoint CY Tech à la suite de ma prépa Physique-Chimie afin de me spécialiser en informatique après 2 ans de cours de Python.
             J&aposy ai découvert de nombreux langages et outils, ainsi que des concepts importants dans mes projets aujourdhui.
             Avec des cours de Java, C/C++, Python, IA, Réseau, Cyber, Cloud, etc. Appliqués dans des projets de groupe et des stages.
           </li>
@@ -301,9 +301,9 @@ export const projectsData = [
     source: "https://github.com/BetaProg01/CartonTracking",
   },
   {
-    type: "WEB-APP",
+    type: "PROJECT",
     title: "Quiz Paulitique",
-    image: null,
+    image: "paulitique",
     link: "",
     source: "https://github.com/Paulitique/quiz",
   },
