@@ -106,82 +106,102 @@ export const skillsData = [
   {
     name: "Java",
     icon: FaJava,
+    group: "Langages",
   },
   {
     name: "Spring Boot",
     icon: BiLogoSpringBoot,
+    group: "Langages",
   },
   {
     name: "C/C++",
     icon: TbBrandCpp,
+    group: "Langages",
   },
   {
     name: "C#",
     icon: TbBrandCSharp,
+    group: "Langages",
   },
   {
     name: "Python",
     icon: FaPython,
+    group: "Langages",
   },
   {
     name: "Docker",
     icon: FaDocker,
+    group: "CloudTools",
   },
   {
     name: "Terrafom",
     icon: SiTerraform,
+    group: "CloudTools",
   },
   {
     name: "Ansible",
     icon: SiAnsible,
+    group: "CloudTools",
   },
   {
     name: "CI/CD",
     icon: SiGithubactions,
+    group: "CloudTools",
   },
   {
     name: "Kafka",
     icon: SiApachekafka,
-  },
-  {
-    name: "IA",
-    icon: LuBrainCircuit,
+    group: "CloudTools",
   },
   {
     name: "FastAPI",
     icon: SiFastapi,
+    group: "Front",
+  },
+  {
+    name: "IA",
+    icon: LuBrainCircuit,
+    group: "Other",
   },
   {
     name: "Javascript",
     icon: TbBrandJavascript,
+    group: "Front",
   },
   {
     name: "PHP",
     icon: FaPhp,
+    group: "Front",
   },
   {
     name: "Angular",
     icon: FaAngular,
+    group: "Front",
   },
   {
     name: "ReactJS",
     icon: FaReact,
+    group: "Front",
   },
   {
     name: "Postgres",
     icon: BiLogoPostgresql,
+    group: "Other",
   },
   {
     name: "NoSQL",
     icon: SiNeo4J,
+    group: "Other",
   },
   {
-    name: "Prog. Fonction-nelle",
+    name: "OCaml",
     icon: SiOcaml,
+    group: "Other",
   },
   {
     name: "Git",
     icon: BsGit,
+    group: "Other",
   },
 ];
 
@@ -275,33 +295,33 @@ export const projectsData = [
   {
     type: "WEB-APP",
     title: "Portfolio",
-    image: null,
+    image: "portfolio",
     link: "https://benoit-verdot-portfolio.netlify.app",
     source: "https://github.com/BetaProg01/portfolio",
   },
   {
-    type: "PROJECT",
+    type: "PROJET",
     title: "Reproduction du Reddit rPlace",
     image: null,
     link: "",
     source: "https://github.com/NathanLenas/place_pfe",
   },
   {
-    type: "PROJECT",
+    type: "PROJET",
     title: "Adaptation du jeu Catan",
-    image: null,
+    image: "catan",
     link: "",
     source: "https://github.com/Julie-Galopeau/catan-wish/",
   },
   {
-    type: "PROJECT",
+    type: "PROJET",
     title: "CartonTracking : faux suivi GPS",
-    image: null,
+    image: "cartonTracking",
     link: "",
     source: "https://github.com/BetaProg01/CartonTracking",
   },
   {
-    type: "PROJECT",
+    type: "PROJET",
     title: "Quiz Paulitique",
     image: "paulitique",
     link: "",

@@ -22,7 +22,7 @@ const Projects = () => {
         ? projectsData
         : projectsData.filter((data) => data.type === value);
     });
-  const options = ["ALL", "WEB-APP", "PROJECT"];
+  const options = ["ALL", "WEB-APP", "PROJET"];
   const { getRootProps, getRadioProps } = useRadioGroup({
     name: "project",
     defaultValue: "ALL",
@@ -34,7 +34,7 @@ const Projects = () => {
     <Center>
       <Box width={["90vw", "90vw", "80vw"]} height="100%" marginBottom="4rem">
         <Heading className="sub-heading" size="md" my={3}>
-          PROJECTS
+          PROJETS
         </Heading>
 
         <Flex {...group} w="100%" px="6" py="5" align="center" justify="center">

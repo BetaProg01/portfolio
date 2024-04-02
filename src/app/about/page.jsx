@@ -30,7 +30,7 @@ const Page = () => {
             >
               <Image
                 objectFit="shrink"
-                src="/images/profile.png"
+                src="/images/profile.jpg"
                 alt="profile-image"
                 width={["20rem", "30rem", "20rem"]}
                 height={["20rem", "30rem", "20rem"]}
@@ -43,16 +43,16 @@ const Page = () => {
                 </Heading>
                 <br />
                 <Text>
-                  Je suis un futur Ingénieur spécialisé en Cloud Computing et DevOps, passionné par la mise en place d&aposinfrastructures Cloud et l&aposautomatisation.
+                  Je suis un futur Ingénieur spécialisé en Cloud Computing et DevOps, passionné par la mise en place d'infrastructures Cloud et l'automatisation.
                   Je cherche constamment à acquérir de nouvelles compétences et à relever des défis techniques pour compléter mes connaissances.
                 </Text>
                 <br />
                 <Text>
-                  Ma curiosité m&aposa poussé à explorer divers domaines comme le développement backend, le réseau ou l&aposIA, puis le Cloud qui m&aposa particulièrement intéressé. J&aposai ainsi développé des compétences en architecture microservices, en déploiement d&aposinfrastructures avec Terraform et Ansible, utilisé Docker pour la conteneurisation ou encore développé des chaînes CI/CD avec Github Actions et GitLab CI.
+                  Ma curiosité m'a poussé à explorer divers domaines comme le développement backend, le réseau ou l'IA, puis le Cloud qui m'a particulièrement intéressé. J'ai ainsi développé des compétences en architecture microservices, en déploiement d'infrastructures avec Terraform et Ansible, utilisé Docker pour la conteneurisation ou encore développé des chaînes CI/CD avec Github Actions et GitLab CI.
                 </Text>
                 <br />
                 <Text>
-                  Après ma diplomation en Septembre 2024, j&aposaimerais m&aposinvestir dans une entreprise innovante où je pourrais mettre en pratique mes compétences et contribuer à des projets de long terme.
+                  Après ma diplomation en Septembre 2024, j'aimerais m'investir dans une entreprise innovante où je pourrais mettre en pratique mes compétences et contribuer à des projets de long terme.
                 </Text>
                 <Text>
                   Je serais heureux de discuter de vos projets et de comment je pourrais vous aider à les réaliser.
