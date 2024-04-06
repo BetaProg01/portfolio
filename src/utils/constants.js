@@ -84,7 +84,7 @@ export const interestsData = [
     icon: BsGlobe,
   },
   {
-    interest: "Enconomie et Finance",
+    interest: "Économie et Finance",
     icon: TbZoomMoney,
   },
   {
@@ -106,52 +106,52 @@ export const skillsData = [
   {
     name: "Java",
     icon: FaJava,
-    group: "Langages",
+    group: "Languages",
   },
   {
     name: "Spring Boot",
     icon: BiLogoSpringBoot,
-    group: "Langages",
+    group: "Languages",
   },
   {
     name: "C/C++",
     icon: TbBrandCpp,
-    group: "Langages",
+    group: "Languages",
   },
   {
     name: "C#",
     icon: TbBrandCSharp,
-    group: "Langages",
+    group: "Languages",
   },
   {
     name: "Python",
     icon: FaPython,
-    group: "Langages",
+    group: "Languages",
   },
   {
     name: "Docker",
     icon: FaDocker,
-    group: "CloudTools",
+    group: "Outils Cloud",
   },
   {
     name: "Terrafom",
     icon: SiTerraform,
-    group: "CloudTools",
+    group: "Outils Cloud",
   },
   {
     name: "Ansible",
     icon: SiAnsible,
-    group: "CloudTools",
+    group: "Outils Cloud",
   },
   {
     name: "CI/CD",
     icon: SiGithubactions,
-    group: "CloudTools",
+    group: "Outils Cloud",
   },
   {
     name: "Kafka",
     icon: SiApachekafka,
-    group: "CloudTools",
+    group: "Outils Cloud",
   },
   {
     name: "FastAPI",
@@ -161,7 +161,7 @@ export const skillsData = [
   {
     name: "IA",
     icon: LuBrainCircuit,
-    group: "Other",
+    group: "Autres",
   },
   {
     name: "Javascript",
@@ -186,22 +186,22 @@ export const skillsData = [
   {
     name: "Postgres",
     icon: BiLogoPostgresql,
-    group: "Other",
+    group: "Autres",
   },
   {
     name: "NoSQL",
     icon: SiNeo4J,
-    group: "Other",
+    group: "Autres",
   },
   {
     name: "OCaml",
     icon: SiOcaml,
-    group: "Other",
+    group: "Autres",
   },
   {
     name: "Git",
     icon: BsGit,
-    group: "Other",
+    group: "Autres",
   },
 ];
 
@@ -302,7 +302,7 @@ export const projectsData = [
   {
     type: "PROJET",
     title: "Reproduction du Reddit rPlace",
-    image: null,
+    image: "eistiPlace",
     link: "",
     source: "https://github.com/NathanLenas/place_pfe",
   },
