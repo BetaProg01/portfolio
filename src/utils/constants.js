@@ -258,13 +258,13 @@ export const educationData = [
       <>
         <ul>
           <li>
-            J'ai rejoint CY Tech à la suite de ma prépa Physique-Chimie afin de me spécialiser en informatique après 2 ans de cours de Python.
-            J'y ai découvert de nombreux langages et outils, ainsi que des concepts importants dans mes projets aujourdhui.
+            J’ai rejoint CY Tech à la suite de ma prépa Physique-Chimie afin de me spécialiser en informatique après 2 ans de cours de Python.
+            J’y ai découvert de nombreux langages et outils, ainsi que des concepts importants dans mes projets aujourdhui.
             Avec des cours de Java, C/C++, Python, IA, Réseau, Cyber, Cloud, etc. Appliqués dans des projets de groupe et des stages.
           </li>
           <li>
-            Je me suis ensuite spécialisé en Cloud Computing pendant ma dernière année afin de découvrir l'infrastructure et les outils qui permettent de développer des applications et services modernes.
-            J'effectue actuellement mon dernier stage jusqu'en Septembre 2024.
+            Je me suis ensuite spécialisé en Cloud Computing pendant ma dernière année afin de découvrir l’infrastructure et les outils qui permettent de développer des applications et services modernes.
+            J’effectue actuellement mon dernier stage jusqu’en Septembre 2024.
           </li>
         </ul>
       </>
@@ -279,11 +279,11 @@ export const educationData = [
       <>
         <ul>
           <li>
-            Après mon lycée, j'ai intégré une prépa généraliste pour approfondir les matières scientifiques telles que les Mathématiques et la Physique.
-            Ce cursus comprennait également des cours de Chimie, Sciences de l'Ingénieur, Informatique, Philosophie et Anglais.
+            Après mon lycée, j’ai intégré une prépa généraliste pour approfondir les matières scientifiques telles que les Mathématiques et la Physique.
+            Ce cursus comprennait également des cours de Chimie, Sciences de l’Ingénieur, Informatique, Philosophie et Anglais.
           </li>
           <li>
-            Ainsi, tout en me préparant aux concours des écoles d'ingénieurs, j'ai pu apprendre une nouvelle méthode de travail, renforcer mes compétences en mathématiques et en physique, et découvrir de nouvelles matières comme l'informatique.
+            Ainsi, tout en me préparant aux concours des écoles d’ingénieurs, j’ai pu apprendre une nouvelle méthode de travail, renforcer mes compétences en mathématiques et en physique, et découvrir de nouvelles matières comme l’informatique.
           </li>
         </ul>
       </>
